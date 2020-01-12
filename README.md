@@ -12,3 +12,5 @@ This script is meant to run on a DD-WRT router. It sniffs all traffic through th
 
 
 dependencies: scapy, dnspython, mongoengine, ssl, urllib2
+
+Run by running python gabesniffer.py on command line. This project is hosted for documentation purposes - not to run out of the box. dbURL must be a valid URL to a mongo database (ideally hosted with Atlas).
