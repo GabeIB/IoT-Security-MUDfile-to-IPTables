@@ -7,7 +7,8 @@ from scapy.all import *
 from PacketHandler import *
 
 #URL to mongodb. Include ssl=true&ssl_cert_reqs=CERT_NONE if there are ssl certificate issues
-dbURL = 'mongodb://dbUser:irtlab@riotcluster-shard-00-00-i0ezx.mongodb.net:27017,riotcluster-shard-00-01-i0ezx.mongodb.net:27017,riotcluster-shard-00-02-i0ezx.mongodb.net:27017/test?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=RiotCluster-shard-0&authSource=admin&retryWrites=true&w=majority'
+#change UserName:Password
+dbURL = 'mongodb://UserName:Password@riotcluster-shard-00-00-i0ezx.mongodb.net:27017,riotcluster-shard-00-01-i0ezx.mongodb.net:27017,riotcluster-shard-00-02-i0ezx.mongodb.net:27017/test?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=RiotCluster-shard-0&authSource=admin&retryWrites=true&w=majority'
 
 
 #initialize packet handler
